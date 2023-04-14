@@ -1,0 +1,55 @@
+.jumbotron {
+    background-image: url('../images/niño.jpg');
+    background-size: cover;
+    background-position: center top 20%;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.jumbotron-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.jumbotron h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px #000000;
+}
+
+.btn-primary {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 2;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-primary:hover {
+    background-color: #ef5350;
+    border-color: #ef5350;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary i {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
